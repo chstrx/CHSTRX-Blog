@@ -302,6 +302,7 @@ header {
 }
 
 .tk p {
+    padding: 10px;
     font-size: 12px;
 }
 
