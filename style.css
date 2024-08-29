@@ -467,6 +467,9 @@ footer h1 {
     .tk p {
         font-size: 10px;
     }
+    .idl {
+        height: 250px;
+    }
 }
 .kosong {
     z-index: 1000;
