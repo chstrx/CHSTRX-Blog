@@ -136,6 +136,7 @@
         </ul>
     </footer>
     <script>
+        var vb = new Audio('assets/vineboom.mp3');
         function ham() {
             const ham = document.querySelector(".ham");
             const menu = document.querySelector(".menu");
@@ -150,7 +151,6 @@
             document.querySelector("#myCanvas").classList.toggle("active");
         });
         document.querySelector("#kastraks").addEventListener('dblclick', () => {
-            var vb = new Audio('assets/vineboom.mp3');
             vb.play();
             document.querySelector('.modal').classList.toggle('die');
         });
