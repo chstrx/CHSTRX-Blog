@@ -348,6 +348,8 @@ tbody tr:hover, tbody tr:nth-child(even) {
 }
 
 footer {
+    margin: 0;
+    bottom: 0;
     width: 100%;
     background: #2450a1;
     color: #fff;
