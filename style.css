@@ -261,6 +261,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -274,6 +275,7 @@ header {
 #hobby p {
     font-size: 12px;
     margin: 0;
+    text-align: center;
 }
 
 .hobi {
