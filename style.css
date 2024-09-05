@@ -20,6 +20,8 @@ body {
     font-family: Poppins, sans-serif;
     margin: 0;
     padding: 0;
+    left: 0;
+    right: 0;
     box-sizing: border-box;
     width: 100%;
     min-height: 100vh;
@@ -484,7 +486,7 @@ footer h1 {
         padding: 0;
         flex-direction: column;
         position: fixed;
-        width: 30%;
+        width: 40%;
         right: 0;
         background: #090e29;
         top: 40px;
@@ -561,6 +563,7 @@ footer h1 {
         justify-content: center;
         position: inherit;
         display: flex;
+	align-items: center;
         flex-wrap: wrap;
     }
     .hb {
@@ -572,6 +575,7 @@ footer h1 {
         font-size: 15px;
     }
     .tk p {
+	text-align: center;
         font-size: 10px;
     }
     .idl {
